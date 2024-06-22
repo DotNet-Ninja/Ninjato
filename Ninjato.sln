@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{529CE552-FD23-44B7-A477-3A4F8654EF4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninjato", "src\Ninjato\Ninjato.csproj", "{CC7FDCB0-381F-4A2B-B440-B611EB7C5B7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{87C5306C-28C5-4B95-B3CC-00412DFE8BF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninjato.Tests", "tests\Ninjato.Tests\Ninjato.Tests.csproj", "{B5426A16-A19E-476C-BCA8-E1F3B781B737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC7FDCB0-381F-4A2B-B440-B611EB7C5B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7FDCB0-381F-4A2B-B440-B611EB7C5B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7FDCB0-381F-4A2B-B440-B611EB7C5B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7FDCB0-381F-4A2B-B440-B611EB7C5B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5426A16-A19E-476C-BCA8-E1F3B781B737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5426A16-A19E-476C-BCA8-E1F3B781B737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5426A16-A19E-476C-BCA8-E1F3B781B737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5426A16-A19E-476C-BCA8-E1F3B781B737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC7FDCB0-381F-4A2B-B440-B611EB7C5B7B} = {529CE552-FD23-44B7-A477-3A4F8654EF4D}
+		{B5426A16-A19E-476C-BCA8-E1F3B781B737} = {87C5306C-28C5-4B95-B3CC-00412DFE8BF0}
+	EndGlobalSection
+EndGlobal
