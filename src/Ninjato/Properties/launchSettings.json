@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ninjato": {
+      "commandName": "Project",
+      "commandLineArgs": "scaffold\r\n-n Test-Site\r\n-f"
+    }
+  }
+}
